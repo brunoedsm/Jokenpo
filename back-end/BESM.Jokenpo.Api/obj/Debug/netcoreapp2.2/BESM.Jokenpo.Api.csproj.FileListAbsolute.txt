@@ -1,0 +1,17 @@
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\bin\Debug\netcoreapp2.2\BESM.Jokenpo.Api.deps.json
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\bin\Debug\netcoreapp2.2\BESM.Jokenpo.Api.runtimeconfig.json
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\bin\Debug\netcoreapp2.2\BESM.Jokenpo.Api.runtimeconfig.dev.json
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\bin\Debug\netcoreapp2.2\BESM.Jokenpo.Api.dll
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\bin\Debug\netcoreapp2.2\BESM.Jokenpo.Api.pdb
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\bin\Debug\netcoreapp2.2\BESM.Jokenpo.Core.dll
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\bin\Debug\netcoreapp2.2\BESM.Jokenpo.Core.pdb
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.csprojAssemblyReference.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.csproj.CoreCompileInputs.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.RazorAssemblyInfo.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.RazorAssemblyInfo.cs
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.AssemblyInfoInputs.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.AssemblyInfo.cs
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.RazorTargetAssemblyInfo.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.csproj.CopyComplete
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.dll
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Api\obj\Debug\netcoreapp2.2\BESM.Jokenpo.Api.pdb

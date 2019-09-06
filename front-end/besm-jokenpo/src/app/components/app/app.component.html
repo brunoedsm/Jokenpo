@@ -1,0 +1,88 @@
+<!--Main HTMl-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!<i class="fa fa-thumbs-up"></i>
+  </h1>
+</div>
+<br>
+<div id="dvAlert" class="alert alert-danger" role="alert" style="display:none;"></div>
+<div class="container">
+  <div *ngIf="!isPlaying" id="dvDefinePlayers" class="row">
+    <span>Please select number of players:&nbsp;</span>
+    <select [(ngModel)]="qtdPlayers" (change)="changePlayerQtd();" required>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    <div class="row col-md-12">
+      <div *ngFor="let playerWeapon of lstPlayersWeapons" class="col-md-2">
+        <p>Player Name:</p><input type="text" [(ngModel)]="playerWeapon.playerName" class="form-control" required>
+      </div>
+    </div>
+    <div class="row col-md-12">
+      <p>After complete the players, click Start!</p>
+    </div>
+    <div class="row col-md-12">
+      <button class="btn btn-primary" (click)="playMatch()">Start!</button>
+    </div>
+  </div>
+  <div *ngIf="isPlaying && currentPlayer !== undefined" id="dvChangeWeapons" class="row">
+    <div class="col-md-12">Change weapon for player {{currentPlayer.playerName}}:&nbsp;&nbsp;
+      <select [(ngModel)]="currentPlayer.weaponName">
+        <!--Usando o proprio name, poderia ser o ID-->
+        <option *ngFor="let weapon of lstWeapons" value="{{weapon.name}}">{{weapon.name}}</option>
+      </select>
+    </div>
+    <div class="col-md-12">
+      <button class="btn btn-warning" (click)="selectWeapon()">Select Weapon</button>
+    </div>
+  </div>
+  <div *ngIf="currentPlayer === undefined" id="dvResults" class="row">
+    <div class="col-md-12">
+      <button class="btn btn-success" (click)="showResults()">Jokenpo!!!</button>
+    </div>
+    <br />
+    <br />   
+    <div *ngIf="matchResults" class="col-md-12">
+        <p>Legenda:<br>
+        <i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;=&nbsp;Vencedor(es)</p>
+        <table class="table">
+           <thead class="thead-light">
+             <tr>               
+               <th *ngFor="let res of matchResults">
+                 {{res.playerName}}
+                 <i *ngIf="res.bestRanked" class="fa fa-trophy" aria-hidden="true"></i>
+               </th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td *ngFor="let res of matchResults">
+                 <span>
+                   <b>{{res.weaponName}}</b>
+                 </span>
+                 <ul *ngIf="res.wonFrom[0] !== undefined" [ngClass]="{'winner':res.bestRanked}" class="text-success">
+                   <li>Ganhou de:</li> 
+                   <li *ngFor="let name of res.wonFrom">{{name}}</li>
+                 </ul>
+                 <ul *ngIf="res.tiedWith[0] !== undefined" class="text-warning">
+                    <li>Empatou com:</li> 
+                    <li *ngFor="let name of res.tiedWith">{{name}}</li>
+                 </ul>
+                 <ul *ngIf="res.lostTo[0] !== undefined" class="text-danger">
+                    <li>Perdeu para:</li> 
+                    <li *ngFor="let name of res.lostTo">{{name}}</li>
+                 </ul>
+               </td>
+             </tr>
+           </tbody>
+        </table>
+        <br />
+        <br /> 
+        <button class="btn btn-primary" (click)="playMatchAgain();">Play Again</button>
+        <button class="btn btn-primary" (click)="ngOnInit();">Change Players</button>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

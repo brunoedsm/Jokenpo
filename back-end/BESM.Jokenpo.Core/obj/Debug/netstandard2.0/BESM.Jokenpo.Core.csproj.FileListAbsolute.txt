@@ -1,0 +1,17 @@
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BTGPactual.Jokenpo.Core\bin\Debug\netstandard2.0\BESM.Jokenpo.Core.deps.json
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BTGPactual.Jokenpo.Core\bin\Debug\netstandard2.0\BESM.Jokenpo.Core.dll
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BTGPactual.Jokenpo.Core\bin\Debug\netstandard2.0\BESM.Jokenpo.Core.pdb
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BTGPactual.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.csproj.CoreCompileInputs.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BTGPactual.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.AssemblyInfoInputs.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BTGPactual.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.AssemblyInfo.cs
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BTGPactual.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.dll
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BTGPactual.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.pdb
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Core\bin\Debug\netstandard2.0\BESM.Jokenpo.Core.deps.json
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Core\bin\Debug\netstandard2.0\BESM.Jokenpo.Core.dll
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Core\bin\Debug\netstandard2.0\BESM.Jokenpo.Core.pdb
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.csprojAssemblyReference.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.csproj.CoreCompileInputs.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.AssemblyInfoInputs.cache
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.AssemblyInfo.cs
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.dll
+C:\Users\bruno.monteiro\Documents\Geral\Jokenpo-master\back-end\BESM.Jokenpo.Core\obj\Debug\netstandard2.0\BESM.Jokenpo.Core.pdb

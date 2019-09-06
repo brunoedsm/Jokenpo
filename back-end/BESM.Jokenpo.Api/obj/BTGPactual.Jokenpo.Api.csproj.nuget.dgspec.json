@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Api/BTGPactual.Jokenpo.Api.csproj": {}
+  },
+  "projects": {
+    "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Api/BTGPactual.Jokenpo.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Api/BTGPactual.Jokenpo.Api.csproj",
+        "projectName": "BTGPactual.Jokenpo.Api",
+        "projectPath": "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Api/BTGPactual.Jokenpo.Api.csproj",
+        "packagesPath": "/home/bruno/.nuget/packages/",
+        "outputPath": "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bruno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Core/BTGPactual.Jokenpo.Core.csproj": {
+                "projectPath": "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Core/BTGPactual.Jokenpo.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Core/BTGPactual.Jokenpo.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Core/BTGPactual.Jokenpo.Core.csproj",
+        "projectName": "BTGPactual.Jokenpo.Core",
+        "projectPath": "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Core/BTGPactual.Jokenpo.Core.csproj",
+        "packagesPath": "/home/bruno/.nuget/packages/",
+        "outputPath": "/home/bruno/Projects/BTGPactual/back-end/BTGPactual.Jokenpo.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/bruno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
